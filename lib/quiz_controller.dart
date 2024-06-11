@@ -7,13 +7,13 @@ class QuizController {
     Question('Computer Processing Unit adalah kepanjangan dari CPU.', false),
     Question(
         'LAN adalah jaringan komputer dengan area yang berskala kecil.', true),
-    Question('Biner adalah sistem bilangan basis 2', true),
-    Question('Alamat memori menggunakan basis bilangan hexadesimal.', true),
+    Question('RAM DDR4 memiliki batas maksimal kecepatan 3200 Mhz', true),
+    Question('Storage EMMC lebih lambat dibandingkan dengan storage UFS.', true),
     Question('Read Acces Memory adalah kepanjangan dari RAM.', false),
-    Question('Oktal adalah bilangan basis 16', false),
+    Question('RAM bertipe LPDDR dapat dilepas', false),
     Question('Kepanjangan BIOS adalah Basic Input Output System.', true),
     Question(
-        'ALU adalah komponen dari CPU yang bertugas melakukan perhitungan aritmatika dan pembadingan.',
+        'NPU adalah komponen dari CPU yang bertugas melakukan komputasi AI On Device secara offline.',
         true),
     Question('Open System Interconnection adalah kepanjangan dari OSI.', true),
     Question('File Technology Protocol adalah kepanjangan dari FTP.', false),

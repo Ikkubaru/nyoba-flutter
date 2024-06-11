@@ -21,7 +21,7 @@ class _QuizPageState extends State<QuizPage> {
         Alert(
           context: context,
           title: 'Finished!',
-          desc: 'You\'ve reached the end of the quiz.',
+          desc: 'You\'ve answered ${correctAnswer} correct questions.',
           buttons: [
             DialogButton(
               onPressed: () => Navigator.pop(context),
